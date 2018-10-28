@@ -58,6 +58,16 @@ public class Runner {
         singleton1.askVet();
 
 
+        //observer
+
+        DuckCoop duckCoop = new DuckCoop();
+        mallardDuck.walkToDuckCoop(duckCoop);
+        rubberDuck.walkToDuckCoop(duckCoop);
+        greenWingedTealDuck.walkToDuckCoop(duckCoop);
+        rubberDuck.layEgg();
+        mallardDuck.layEgg();
+
+
     }
 
 
